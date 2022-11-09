@@ -1,0 +1,32 @@
+body{
+    background-color: #f7f8fc;
+    /* background-image: url("./images/background_1080_2400.jpg"); */
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-aspect-ratio: 3/4) {
+    body {
+      background-position: center bottom;
+    }
+}
+
+@media screen and (max-height: 1150px) {
+    body {
+        background-image: url("./images/background_iphone_se.jpg");
+    }
+}
+
+@media screen and (min-height: 2400px) {
+    body {
+        background-image: url("./images/background_1080_2400.jpg");
+    }
+}
+
+@media screen and (min-height: 3000px) {
+    body {
+        background-image: url("./images/background_1080_3000.jpg");
+    }
+}
